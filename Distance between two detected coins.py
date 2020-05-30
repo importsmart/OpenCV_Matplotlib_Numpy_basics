@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-img = cv2.imread('2coins.jpg', cv2.IMREAD_COLOR)
+img = cv2.imread('Distance between two detected coins (test image).jpg', cv2.IMREAD_COLOR)
 
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
